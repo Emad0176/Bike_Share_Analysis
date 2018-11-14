@@ -295,7 +295,7 @@ for city in cities:
 
 ## Visualizing consumer behavior
 
-### This function will produce a pie chart that summarize when customers use the service as distribued over day hours and week days
+### This function will produce pie charts that summarize when customers use the service as distribued over day hours during working days
 
 ```
 #The disctribution in day use among Subscribers and Customers as a pie chart
@@ -430,11 +430,11 @@ data_files = ['./data/Washington-CapitalBikeshare-2016.csv']
 
 for city_file in data_files:
     print (Daily_use_workdays(city_file))
-    print("Pie Charts representing Subscribers daily use in weekdays in Washington")
+    print("Pie Charts representing Subscribers daily use in working days in Washington")
     
  ```
  
- The generated pie chart will show when the service was used most and by whom. Such conclusion can drive business strategy such as targeted segments (customers) and advertising scale and the image to be conveyed to the customers.
+The generated pie charts will show when the service was used most and by whom. Such conclusion can drive business strategy such as targeted segments (customers) and advertising scale and the image to be conveyed to the customers.
  
  
  # How to contribute to this project
