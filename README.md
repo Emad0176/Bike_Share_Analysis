@@ -10,6 +10,9 @@ In this project, I was expected to perform an exploratory analysis on data provi
 
 ## Language used: Python 3
 
+## Code composition
+extracting data and visualization
+
 ## General notes about the data:
 
 You will generate new data files with five values of interest for each trip: trip duration, starting month, starting hour, day of the week, and user type. Each of these may require additional wrangling depending on the city:
